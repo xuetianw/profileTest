@@ -14,7 +14,7 @@
 my:
   greeting: hello from remote reo
   list:
-    values: one,two,three, repote
+    values: one,two,three, remote repo
 
 db:
   connection: {connectionString: "http://localhost:8080/actuator/beans2", username : "username", password : "password"}
