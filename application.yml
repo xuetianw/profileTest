@@ -1,10 +1,22 @@
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/demo
-    username: root
-    password: password
-  jpa:
-    hibernate.ddl-auto: create
-    show-sql: true
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/demo
+#    username: root
+#    password: password
+#  jpa:
+#    hibernate.ddl-auto: create
+#    show-sql: true
+#
+## SWAGGER can hear with yml
 
-# SWAGGER can hear with yml
+
+
+my:
+  greeting: hello from remote reo
+  list:
+    values: one,two,three, repote
+
+db:
+  connection: {connectionString: "http://localhost:8080/actuator/beans2", username : "username", password : "password"}
+  host: 127.0.0.1
+  port: 2223
