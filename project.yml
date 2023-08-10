@@ -1,4 +1,4 @@
 my:
-  greeting: hello from remote reo project.yml new5
+  greeting: hello from remote reo project.yml new6
   list:
     values: one,two,three, repo project.yml
